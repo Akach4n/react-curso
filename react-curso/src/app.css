@@ -1,0 +1,27 @@
+
+body{
+    background: darkcyan;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    place-items: center;
+    max-width: 800px;
+    font-family: system-ui;
+}
+
+
+
+section{
+    place-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+img{
+    max-width: 380px;
+    height: auto;
+}
